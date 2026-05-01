@@ -26,6 +26,19 @@ while var_int != 0:
     var_int=int(input('შეიყვანე მთელი რიცხვი: '))
 print(total)
 
+#ამოცანა 3
+
+var_sec= 9.9
+while True:
+    var_float=float(input('გამოიცანი რიცხვი: '))
+    if var_float==var_sec:
+        print('გილოცავთ თქვენ გამოიცანით ჩაფიქრებული რიცხვი')
+        break
+    elif var_float>var_sec:
+        print('too high')
+    else:
+        print('too low')
+
 #ამოცანა 4
 
 var_str = input("შეიყვანე ტექსტი: ")
