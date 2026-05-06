@@ -14,6 +14,7 @@ print(
      f'მინიმალური მნიშვნელობა არის: {var_numbers[0]}\n'
      f'მაქსიმალური მნიშვნელობა არის: {var_numbers[len(var_numbers)-1]}'
 )
+
 # ამოვცანა 3
 
 var_numbers=[1,54,6,5,0]
@@ -29,7 +30,16 @@ print(
     f'ლუწი რიცხვები {var_luwi} \n'
     f'კენტი რიცხვები {var_kenti} '
 )
-
+###############################################################
+    
+var_numbers=[1,54,6,5,0]
+var_kenti=[i for i in var_numbers if i%2!=0]
+var_luwi= [i for i in var_numbers if i%2==0]
+print(
+    f'ლუწი რიცხვები {var_luwi} \n'
+    f'კენტი რიცხვები {var_kenti} '
+ )
+ 
 # ამოცანა 4
 
 var_num=[23,345,6,7,78,969]
